@@ -7,10 +7,9 @@ function map(src,fun) {
 }
 function map(src,fun,op){
     let r = []
-if(op){ 
+if(op){
 r= op
 i = 0
 }
 
 }
-
