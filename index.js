@@ -6,7 +6,9 @@ function map(src,fun) {
   return r;
 }
 function reduce(src,fun,op){
-    let r = []
+  let r = (op) ? op : src[0]
+  let i = (op) ? 0 : 1
+
 if(op){
 r= op
 i = 0
