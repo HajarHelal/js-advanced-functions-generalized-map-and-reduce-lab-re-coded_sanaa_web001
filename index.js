@@ -5,3 +5,10 @@ function map(src,fun) {
   }
   return r;
 }
+function reduce(src,fun,op){
+    let r = []
+if(op){
+r= op
+i = 0
+}
+}
