@@ -5,3 +5,12 @@ function map(src,fun) {
   }
   return r;
 }
+function map(src,fun,op){
+    let r = []
+if(op){ 
+r= op
+i = 0
+}
+
+}
+
