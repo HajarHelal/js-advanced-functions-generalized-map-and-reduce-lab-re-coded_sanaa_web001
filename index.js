@@ -8,10 +8,7 @@ function map(src,fun) {
 function reduce(src,fun,op){
   let r = (op) ? op : src[0]
   let i = (op) ? 0 : 1
-if(op){
-r= op
-i = 0
-}
+
 for (i < src.length; i++) {
     r = fun(src[i], r)
   }
