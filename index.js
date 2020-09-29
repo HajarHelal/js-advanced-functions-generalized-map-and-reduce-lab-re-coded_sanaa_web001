@@ -5,4 +5,3 @@ function map(src,fun) {
   }
   return r;
 }
-
